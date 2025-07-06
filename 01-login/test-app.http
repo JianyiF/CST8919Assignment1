@@ -1,0 +1,23 @@
+### Home Page (public)
+GET https://cst8919assignment1demo.azurewebsites.net
+Accept: text/html
+
+
+### Protected Route (Unauthenticated Access - Simulates Unauthorized)
+GET https://cst8919assignment1demo.azurewebsites.net/protected
+Accept: text/html
+
+
+### Simulated Login Redirect (won't work fully in REST client)
+GET https://cst8919assignment1demo.azurewebsites.net/login
+Accept: text/html
+
+
+### Callback URL Access (unauthorized without Auth0 context)
+GET https://cst8919assignment1demo.azurewebsites.net/callback
+Accept: text/html
+
+
+### Logout (clears session)
+GET https://cst8919assignment1demo.azurewebsites.net/logout
+Accept: text/html
