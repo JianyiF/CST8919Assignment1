@@ -1,5 +1,5 @@
 ### Home Page (public)
-GET https://cst8919assignment1demo.azurewebsites.net
+GET https://cst8919assignment1demo.azurewebsites.net/
 Accept: text/html
 
 
@@ -21,3 +21,4 @@ Accept: text/html
 ### Logout (clears session)
 GET https://cst8919assignment1demo.azurewebsites.net/logout
 Accept: text/html
+
